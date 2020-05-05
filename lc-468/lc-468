@@ -1,0 +1,51 @@
+function validTree(n, edges) {
+    /** construct adjacency list **/
+    const adjacencyList = new Map();
+    for (let i = 0; i < n; i++) {
+        adjacencyList.set(i, []);
+    }
+    // undirected graph must store edges both ways
+    for (let edge of edges) {
+        const u = edge[0];
+        const v = edge[1];       
+        adjacencyList.get(u).push(v);
+        adjacencyList.get(v).push(u);
+    }
+    
+    console.log('list', adjacencyList)
+    const visited = new Set();
+    
+    function hasCycle(curr, parent) {
+        
+        visited.add(curr);
+        
+        for (let neighbor of adjacencyList.get(curr)) {
+            
+            if (!visited.has(neighbor)) {
+                if (hasCycle(neighbor, curr)) return true;
+            } else {
+                //we've seen this neighbor before, it has to be its parent, or else we got a cycle
+                if (neighbor !== parent) return true;
+            }
+        }
+        return false;
+    }
+    
+    if (hasCycle(0, -1)) {
+        return false;
+    }
+    
+    
+    /**
+     * do we have unconnected components?
+     * at this point we should have seen all the nodes by DFS traversal
+     * if there are nodes that aren't visited, theres an unconnected component
+     **/
+    for (let i = 0; i < n; i++) {
+        if (!visited.has(i)) {
+            return false;
+        }
+    }
+        
+    return true;
+}
