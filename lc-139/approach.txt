@@ -1,0 +1,11 @@
+// start reading through the characters of the string
+// for each index, slice the portion
+// check if the sliced portion is present in the word dictionary
+// if so, then recursively call the function with the reamaining part
+// keep doing so
+// when the remaining part is empty, then it means it is true
+// when the last portion is not found in anyways of the dict, then return false
+
+// If we do not use memoization, when it looks for other words deeper.
+// It will be exponential and will timeout
+// so we need to cache the results
