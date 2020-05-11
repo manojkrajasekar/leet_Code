@@ -1,0 +1,11 @@
+1. Store the pattern in the map
+
+2. start looping through the window, and decrement the chars in the map
+
+3. when the counter is 0, check for the length and add it to the result
+
+4. then move the window, start adding the char in the left 
+
+5. for each found, decrement the count, if it is in the map,
+
+6. Repeat the same steps, so that the map counter plays an important role in here
