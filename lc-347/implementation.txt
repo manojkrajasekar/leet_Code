@@ -1,0 +1,20 @@
+Goal: To find the top k frequent elements
+
+Approach 1:
+
+1. loop through the array and find the elements and store it in a hash map
+
+2. value is the occurenecs
+
+2. sort the map based on the value, i.e is the occurences by descending order
+
+// While you do the above operation, you will get the items
+
+But the time complexity will be linear and then lograthmic
+so, nlogn
+
+we must have something better than nlogn, as that is the requirement
+
+// Better approach will be to use a Max Heap, where we store the elements with 
+
+/// everytime you insert, max heapify based on the occurences
