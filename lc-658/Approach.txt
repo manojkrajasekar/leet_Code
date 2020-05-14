@@ -1,0 +1,13 @@
+To find the closest element, you need to find the range
+
+// Simple Binary Search with a small tweak in the condition
+
+if the difference between the element and the mid value is
+
+ * is greater than the difference between element and the element from the last range
+
+   It clearly means you need to move closer to the right part, which is low = mid + 1
+
+* If the it less than the part of the other range,
+
+  It clealy means it should move be in the left part and hence, right = mifd
