@@ -1,0 +1,8 @@
+Use the graph to store the different string words
+
+Then start performin  standard DFS, so that you get the connections
+
+Simultaneoulsy, you will have a visited set, to store the values
+
+// Until the search finishes off, do the dfs and it will have all values
+
