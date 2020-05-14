@@ -1,0 +1,12 @@
+// Since we need to get the distance equally, the problem would be accessing topwards from the node
+below and account for the distance
+
+// To address that, we need to use the queue and get the elements including the parent
+
+// Initially calculate the parent and child nodes and store it in Set
+
+// Child -> parent
+
+like checking for left and right values, check for the parent value as well
+
+
