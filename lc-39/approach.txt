@@ -1,0 +1,11 @@
+In order to find the whole combination sum. you need to choose each element
+
+from the arr, and then start repeating it till it equals to or exceeds the target
+
+// If it exceeds, just remove the last element and then return, choode the next element
+
+// Do this starting from each number in the array and build up the tree
+
+
+Time complexity woudd be n! if we use memoization
+
