@@ -1,0 +1,19 @@
+Sort the Intervals as they would be of different sets and timings
+
+Start looping throgh the array of intervals
+
+if the A[1] >= B[0], we need to merge it.
+
+One case to be considered is, after we merge, we need to make the prev element as
+
+the new element
+
+Once you merge the items, revert back the index to the previous element in the arr
+
+Ask Clarifying questions
+
+Then it must become A[1], and then or just shift the first element in the array
+
+Then continue doing the search, finally you will have the merge intervals
+
+TIme complexity would be O(nlogn)
