@@ -1,0 +1,8 @@
+// The idea is to find the smallest range, which is the min and the max 
+from the lists which the smallest range possible
+
+// If we compare normally, we will get O(n * k) where k is the number of lists
+and n is the number of elements
+
+// It is better to use min heap, so that every time we woould use to heapify and get the minimmum element
+

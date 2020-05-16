@@ -1,0 +1,11 @@
+Use min priority queue approach
+
+Initially store the min elements in the heap
+
+// Then move the element in the list, which has the min element, so that we recalculate the
+range and we should have a max value for the min value
+
+// every time when you check for the max element in the min element, update
+the max value whether it has impacted or not
+
+// finally you will have the value
