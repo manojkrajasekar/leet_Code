@@ -1,0 +1,26 @@
+// Store the sentence and the occurences in the hashMap
+
+// Sort it based on the occcurences, top 3 or so will have the same degree of hotness
+
+// But we need to use a trie, to store the value based on the sentence
+
+// i love you - 5 
+
+// island - 3
+
+// ironman - 2
+
+i -> ' ' -> l 
+  -> s -> l
+  -> r -> o
+  -> ' ' -> l
+
+At the end of thr trie element -> the frequency is the value
+When they are qual then, we need to compare each values
+
+Get the value typed from the prefix and then search it in the Map, which begins
+with that and get the ones with most frequent occuring
+
+i -> i(5) -> love()
+  -> i(3) -> s()
+  -> i(2) -> r

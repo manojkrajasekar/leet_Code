@@ -1,0 +1,9 @@
+[[0, 30],[5, 10],[15, 20]]
+
+Basic idea is, the start time of another meeting must be greater than the end time
+
+of previous meeting, if so we can use the room
+
+The time complexity is we sort the times, and then compare,
+
+worst case we would do , n log n
