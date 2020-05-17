@@ -1,0 +1,11 @@
+// DFS approacj
+
+// Start looping through row and column wise, and fond the the 1st character
+
+// Once the forst character is found, then look for all the four directions
+
+// If present, then mark that as visited
+
+// then look for other words, and then return to the original, then look for the remainig words. from the starting position
+
+// If the word is formed, then return true, anywhere else, return false
