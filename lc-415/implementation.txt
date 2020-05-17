@@ -1,0 +1,5 @@
+// In order to add 2 strings represented as numbers,
+
+we can use the char code at and add those values in order to caculate it 
+
+carry over the remaining balance to the next number and implement it
