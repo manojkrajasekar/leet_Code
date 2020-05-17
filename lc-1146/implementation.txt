@@ -1,0 +1,12 @@
+// Initialize an empty array with a given length
+
+// Set the array element
+
+//Everytime when we take a snap, we need to store all the elements, and have an entry
+
+for each snap Id
+
+// In this case, we can use a Map, to store the snap Id as the key,
+and value as the whole array
+// based on the index, and the snap Id, we can get the value from
+the Map
