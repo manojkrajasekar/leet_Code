@@ -1,0 +1,14 @@
+// Create a Map, for all the integers starting from 0 to 26 and store corresponding
+characters
+
+// Given on the based input, start reading the input, 
+
+take each character and look for it in the set, if so add
+// continue, doind it for other values
+
+226
+
+2, 26
+22, 6
+
+2, 2, 6
