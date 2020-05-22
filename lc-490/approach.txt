@@ -1,0 +1,35 @@
+// Start doing DFS from the start point, when it hits 1, 
+Then look at all the next, non wall areas and then start exploring
+
+
+Keep doing untill you explore all the possible ways, if you reach destinataion, break and
+return true
+
+else return false;
+
+if(matrix[i][j] == [i, j]) {
+    dfs(matrix, row, col)
+}
+
+let dirs = [[1,0], [-1, 0], [0, 1], [0, -1]];
+
+function dfs(matrix, row, col) {
+
+    if(row, col === dest, dest) return true
+
+    // check for the valid one and if it is 0, return false;
+
+    mark it is visited to avoid repeatition
+
+    for(let dir of directions) {
+
+        let newR = row + dir[0];
+        let newCol  = col + dir[1];
+
+        if(dfs(matrix, newR, newC)) return true;
+
+        return false;
+    }
+
+    return false;
+}
