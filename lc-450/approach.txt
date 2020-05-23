@@ -1,0 +1,12 @@
+Since it is a BST, we should keep in mind that the inorder traversal of BST
+goves us an array of ascending order of items
+
+we have 3 scenarios in here
+
+1. node is a leaf, just go ahead and dorectly delete it and make it null
+
+2. node has a left and a right chilld, find the successor, to go right one step and left till the end
+
+
+3. node has a right and a left child, find the predeccesor, to gp left one step and right to the furthest step
+
