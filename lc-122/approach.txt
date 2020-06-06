@@ -1,0 +1,15 @@
+[7,1,5,3,6,4]
+
+0, 0, 4, 4, 5, 3
+
+We need to add the values when the prev value is less than the current value
+
+This approach is called as peak valley approach, as we do in that order
+
+for the first element it is always 0, but for the next element you start the 
+actual calculation
+
+
+
+
+nums[i] - buy, max
