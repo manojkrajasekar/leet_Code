@@ -1,0 +1,5 @@
+We can implemetn a queue, using 2 stacks
+
+as we can only remove the last element from the stack and puhs back to the end
+
+
