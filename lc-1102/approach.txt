@@ -1,0 +1,16 @@
+find the path from the start to the end of the matrix
+
+find all the paths from start to end
+
+for each path, get the min value, and then compare it with the min value for other path
+
+// at the end, we will have the max min value in the path from start to end
+
+
+traverse(0, 0)
+
+
+// traverse in all the four directions
+// have a boundary check
+// once it reaches the end, return the min value, and then from that point, the dfs will continue
+// once dfs is done, compare it with the max value of the other path
