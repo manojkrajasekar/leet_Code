@@ -1,0 +1,9 @@
+start from the first item in the grid
+
+choose the max neighbor from that particular cell
+
+start repeating the same unless you hit the block
+
+For each recursion, mark the values as visited and at the end of the recursion,
+
+reset the boolean array and update the max value obtained
