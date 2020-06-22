@@ -1,0 +1,21 @@
+we can proably use the backtracking approach to generate all the possible permutations
+
+and when we bakctrack, we can have a count variable and then compare it with the value of the permutations
+
+n = 3, k = 3
+
+3 rd permutation from 
+
+123
+132
+213
+231
+312
+321
+
+the number of possibilities will be from 1 to n
+for each iteration, we need to place the number at the corresponding index and calculate the value of the permutation
+
+
+This is an inefficient approach as we might go up to the n! sequence, which will cost use
+n! time complexoty
